@@ -56,11 +56,11 @@ p {
 }
 
 
-a.text{
+div.text{
  position: relative;
  top: 55px;
- box-sizing: border-box;
  text-align: center;
+ overflow: hidden;
 }
 
 /* Simple Responsive Framework. */
