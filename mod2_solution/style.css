@@ -31,11 +31,12 @@ h1 {
   height: 50px;
   width: 100px;
   background-color: #505050;
-position: absolute;
+  position: absolute;
   top: 0;
   right: 0;
   align-items: right;
- text-align: center;
+  text-align: center;
+
  /*float: right;*/
 }
 
@@ -49,7 +50,17 @@ p {
   font-family: Helvetica;
   color: white;
   position: relative;
+  text-align: center;
 
+
+}
+
+
+a.text{
+ position: relative;
+ top: 55px;
+ box-sizing: border-box;
+ text-align: center;
 }
 
 /* Simple Responsive Framework. */
