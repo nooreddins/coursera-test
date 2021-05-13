@@ -6,24 +6,23 @@ body {
 .style {
   font-family: Arial, Helvetica, sans-serif;
   color: #0000ff;
-  font-style: normal;
   font-weight: bold;
   font-size: 24px; 
-  text-transform: capitalize;
   text-align: right;  
 }
 
 
-}
 /********** Base styles **********/
 * {
-  box-sizing: border-box;
+ box-sizing: border-box;
+ text-transform: capitalize;
 }
-h1 {
-  margin-bottom: 15px;
-  text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
-  text-align: center;  
 
+
+h1 {
+ margin-bottom: 15px;
+ text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
+ text-align: center;  
 }
 
 
@@ -34,38 +33,40 @@ h1 {
   position: absolute;
   top: 0;
   right: 0;
-  align-items: right;
   text-align: center;
+  padding: 10px;
+  overflow: auto;
+  }
 
- /*float: right;*/
-}
 
-p {
-  border: 1px solid black;
+div.text {
+  border: 2px solid white;
+  border-radius: 5px;
   background-color: #A52A2A;
-  width: 90%;
   height: 150px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 15px;
   font-family: Helvetica;
   color: white;
   position: relative;
-  text-align: center;
-
-
+  text-align: left;
+  overflow: auto;
 }
 
 
-div.text{
+p{
+ margin:  auto;
+ text-align: left;
  position: relative;
  top: 55px;
- text-align: center;
- overflow: hidden;
+ font-size: 15px;
+ padding-left: 10px;
+ overflow-wrap: anywhere;
 }
+
 
 /* Simple Responsive Framework. */
 .row {
-  width: 100%;
+ width: 100%;
 }
 
 /********** Large devices only **********/
